@@ -1,0 +1,9 @@
+Error Handling in Node js 
+    1. try / catch (for async/await)  --- readConfig1.js
+    2. Error-First Callbacks (Node.js Convention) --- readConfig2.js
+            DB Accesss, fileread 
+            Parsing errors needed to handle separately from file errors 
+    3. Centralized Error Handling (structured in real-world apps)
+            Unifrom logging
+            Central API error responses
+            Works with validation, database, auth, etc.
