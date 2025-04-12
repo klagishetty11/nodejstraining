@@ -1,1 +1,6 @@
 Simple text here
+module    Non Blocking                          Real Time Use Case
+-----------------------------------------------------------------------
+fs          callback/ Promise / Stream              Read / Write Logs, configs , uploads
+http        CallBack-based listener                 Non-blocking web server
+stream      Stream.pipe()                           Large File handling,video, realtime logs 

@@ -1,0 +1,21 @@
+{
+    "server": {
+        "host": "localhost",
+        "port": 3000
+    },
+    "database": {
+        "host": "localhost",
+        "port": 5432,
+        "user": "dbuser",
+        "password": "dbpassword",
+        "name": "dbname"
+    },
+    "security": {
+        "jwtSecret": "your-secret-key",
+        "tokenExpiration": "1h"
+    },
+    "logging": {
+        "level": "info",
+        "file": "logs/server.log"
+    }
+}
